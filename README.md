@@ -18,3 +18,4 @@ There is also a 10-minute load stress testing with 100% load of each processor c
 For each individual testing block there is its own condition, if met or not met, the result is output: "TEST PASSED" or "TEST FAILED".
 
 At the end of the entire test, the result of the status will be displayed: the server is good / the server is bad.
+test.
