@@ -1,5 +1,7 @@
 #!/bin/bash
+
 timedatectl set-timezone Europe/Moscow
+
 a=`date +"%Y-%m-%d %H:%M:%S"`
 echo -n -e "Current Date/Time is""\e[0;32m $a\e[0m"", "
 
@@ -20,7 +22,9 @@ else
     echo -n "$NEWD $NEWT" >> d.sh
     echo "'" >> d.sh
     chmod 777 d.sh
+
     ./d.sh
+
     echo
     sleep 1
     clock -w
